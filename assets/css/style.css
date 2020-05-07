@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
 /**header**/
-nav {
+/* nav {
     background-color: rgba(0, 0, 0, 0.2);
     position: fixed;
-}
+    
+} */
 nav > a {
     font-family: "Oswald", sans-serif;
     font-weight: 600;
