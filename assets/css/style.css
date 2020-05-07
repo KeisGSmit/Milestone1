@@ -4,6 +4,11 @@ nav {
     background-color: rgba(0, 0, 0, 0.2);
     position: fixed;
 }
+nav > a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
 /**main**/
 /**learnmore**/
 /**form**/
