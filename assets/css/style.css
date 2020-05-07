@@ -14,3 +14,22 @@ nav > a {
 /**learnmore**/
 /**form**/
 /**footer**/
+footer {
+  background-color: rgb(212, 212, 212);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+footer h3{
+    font-size: 20px;
+}
+footer p{
+    font-size: 15px
+}
+footer h3,i{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: underline;
+    
+}
