@@ -1,35 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap");
 /**header**/
-/* nav {
-    background-color: rgba(0, 0, 0, 0.2);
-    position: fixed;
-    
-} */
+
+nav,
 nav > a {
-    font-family: "Oswald", sans-serif;
-    font-weight: 600;
-    font-size: 32px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline;
+}
+nav,
+ul {
+  text-align: center;
+  vertical-align: center;
+  font-size: 25px;
 }
 /**main**/
 /**learnmore**/
 /**form**/
 /**footer**/
 footer {
+  position: fixed;
+  bottom: 25px;
   background-color: rgb(212, 212, 212);
+  text-align: center;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
-footer h3{
-    font-size: 20px;
+footer h3 {
+  font-size: 20px;
 }
-footer p{
-    font-size: 15px
+footer p {
+  font-size: 15px;
+  color: rgb(139, 139, 139);
 }
-footer h3,i{
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-decoration: underline;
-    
+footer h3,
+i {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: underline;
 }
