@@ -1,33 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
+/**styles**/
+
+#trans1 {
+  /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
+  background: #fffefe;
+  background: -moz-linear-gradient(top, #fffefe 0%, #75580d 100%);
+  background: -webkit-linear-gradient(top, #fffefe 0%, #75580d 100%);
+  background: linear-gradient(to bottom, #fffefe 0%, #75580d 100%);
+  /* End -this content was taken from https://htmlcheatsheet.com/css/ */
+  min-height: 15px;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
 /**header**/
 
 nav,
-nav > a {
+nav > a,
+nav h1 {
   font-family: "Oswald", sans-serif;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 25px;
   display: inline;
+  position: relative;
 }
-nav,
-ul {
+nav ul {
   text-align: center;
   vertical-align: center;
   font-size: 25px;
 }
+@media (min-width: 350px) {
+  nav h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  button [class="navbar-toggler"] {
+    position: relative;
+    display: inline;
+  }
+}
 /**main**/
 .home {
+  background-image: url("https://i.pinimg.com/originals/c6/c3/6a/c6c36a5600cdfd0089804215b5c95f04.jpg"); /**Image was used from google image search**/
+  background-size: cover;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  color: #ffffff;
 }
-/**learnmore**/
+#textbox1 {
+  background-color: rgba(121, 114, 114, 0.404);
+  margin: 30px auto;
+  border-radius: 15px;
+  font-size: 16px;
+  overflow: none;
+}
+/**Info**/
 /**form**/
 /**footer**/
 footer {
-  position: fixed;
   bottom: 25px;
   background-color: rgb(212, 212, 212);
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 0px;
+  padding: 5px 0;
+}
+footer div[class="col-4"] {
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
 }
 footer i {
   font-size: 20px;
