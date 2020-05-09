@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
 /**styles**/
-
+h1, h2, h3, h4, h5, h6{
+    font-family: "Oswald", sans-serif;
+}
+p{
+    font-family: "Source Sans Pro", sans-serif;
+}
 #trans1 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
   background: #fffefe;
@@ -16,7 +21,6 @@
 }
 
 /**header**/
-
 nav,
 nav > a,
 nav h1 {
@@ -41,7 +45,7 @@ nav ul {
     display: inline;
   }
 }
-/**main**/
+/**home**/
 .home {
   background-image: url("https://i.pinimg.com/originals/c6/c3/6a/c6c36a5600cdfd0089804215b5c95f04.jpg"); /**Image was used from google image search**/
   background-size: cover;
@@ -60,8 +64,15 @@ nav ul {
   font-size: 16px;
   overflow: none;
 }
-/**Info**/
-/**form**/
+/**learnmore**/
+.learnmore{
+    height: 100vh;
+    display: inline-block;
+}
+/**donate**/
+.donate{
+    height: 100vh;
+}
 /**footer**/
 footer {
   bottom: 25px;

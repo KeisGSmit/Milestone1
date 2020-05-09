@@ -71,7 +71,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the hero image was copied from the [South African Government - Essential services - Coronoavirus Covid-19](https://www.gov.za/Coronavirus/essential-services)
 
 ### Media
 - The photos used in this site were obtained from ...

@@ -10,18 +10,22 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!--CDN for bootstrap CSS-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
+    <!--CDN for font awesome Icons-->
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Title</title>
   </head>
 
   <body>
     <!--header-->
+    <!--Bootstrap class values - these values will be used
+     through out the HTML file and as such I will not be 
+     commenting on everysingle bootstrap class value-->
 
-    <!--Bootstrap class values-->
     <div class="container-fluid">
       <div class="row">
         <div class="col">
@@ -51,7 +55,7 @@
                   <a class="nav-link" href="#info">Learn More</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#form">Donate</a>
+                  <a class="nav-link" href="#donate">Donate</a>
                 </li>
               </ul>
             </div>
@@ -65,19 +69,29 @@
     <div id="trans1"></div>
     <!--main-->
 
-    <div class="container-fluid home">
+    <div id="home" class="container-fluid home">
       <div class="row">
         <div class="col">
           <div id="textbox1">
-            <h1>The Essential Workers</h1>
+            <h2>The Essential Workers</h2>
+            <h3>Who are the essential workers?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem ab vitae laboriosam facere dolorem soluta. Quibusdam
-              dolore eius temporibus similique voluptas facere perspiciatis
-              fugit odit. Laudantium adipisci perferendis molestias sint
-              explicabo voluptates illo sapiente fugiat error atque consectetur
-              laboriosam tenetur, odio, veritatis expedita voluptate eaque nobis
-              possimus quibusdam fuga quas.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Cupiditate molestiae voluptatem provident cum, adipisci omnis
+              natus eveniet nesciunt. Ipsam, nesciunt est. Voluptate optio
+              aliquid eaque eveniet vitae saepe nihil quae dolorem fugit aut
+              quibusdam commodi, obcaecati numquam sit iusto officia quas
+              temporibus ratione amet similique beatae eius sequi, velit a?
+            </p>
+
+            <h3>What are the struggles of essential workers?</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              facere fugit repudiandae veritatis veniam laborum dolorem
+              recusandae accusamus, quibusdam pariatur itaque rem eos officiis
+              aperiam quam reprehenderit esse possimus, ad cum. Tenetur facilis
+              aliquid nobis laborum atque quod quae recusandae reprehenderit,
+              doloremque velit dolor unde iste, harum nesciunt porro provident!
             </p>
           </div>
         </div>
@@ -86,27 +100,44 @@
     <!--/main-->
 
     <!--learnmore-->
-    <div id="info">
-      <div class="container" style="background-color: red;">
-        CONTENT
+    <div id="info" class="container-fluid learnmore">
+      <div class="row">
+        <div class="col-6 col-md-6 col-sm-12">
+          <h2>Why do they need help?</h2>
+          <p></p>
+        </div>
+        <div class="col-6 col-md-6 col-sm-12">
+          <h2>How can I help an essential worker?</h2>
+          <p></p>
+        </div>
+        <div class="col-6 col-md-6 col-sm-12">
+          <h2>Who will be receiving the help?</h2>
+          <p></p>
+        </div>
+        <div class="col-6 col-md-6 col-sm-12">
+          <h2>When will they be helpped?</h2>
+          <p></p>
+        </div>
       </div>
     </div>
     <!--/learnmore-->
 
-    <!--form-->
-    <div id="form">
-      <div class="container" style="background-color: blue;">
-        CONTENT
+    <!--donate-->
+    <div id="donate" class="container-fluid donate">
+      <div class="row">
+        <div class="col-6">
+          CONTENT
+        </div>
       </div>
     </div>
-    <!--/form-->
+    <!--/donate-->
 
     <!--footer-->
     <footer class="container-fluid">
       <div class="row">
         <div class="col-4">
-          <i class="fas fa-book"></i>
-          <!--Fontawesome Icon-->
+          <i class="fas fa-book"></i
+          ><!--Fontawesome Icon-->
           <h3>Legal</h3>
           <p>
             This is a static front end website. It we designed for educational
@@ -117,8 +148,8 @@
         </div>
 
         <div class="col-4">
-          <i class="fas fa-brain"></i>
-          <!--Fontawesome Icon-->
+          <i class="fas fa-brain"></i
+          ><!--Fontawesome Icon-->
           <h3>Please Educate Yourself</h3>
           <p>
             Below are links directing you to the
@@ -134,9 +165,9 @@
         </div>
 
         <div class="col-4">
-          <i class="fas fa-money-bill-wave"></i>
+          <i class="fas fa-money-bill-wave"></i
+          ><!--Fontawesome Icon-->
           <h3>If you do wish to donate</h3>
-          <!--Fontawesome Icon-->
           <p>
             Please seek out viable organisations that have a repuation of
             helping those in need.
@@ -145,6 +176,7 @@
       </div>
     </footer>
     <!--/footer-->
+    <!--Bootstrap CDN for JavaS script-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
