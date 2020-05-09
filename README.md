@@ -79,3 +79,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - Scott (Tutor) from the Code Institute helped with errors in the navigation bar burger Icon.  
+- Tim (Tutor) from the Code Institute helped with understanding and executing media queries. 
