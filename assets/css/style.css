@@ -1,50 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
 /**styles**/
-h1, h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6{
     font-family: "Oswald", sans-serif;
+    text-decoration: underline;
 }
 p{
     font-family: "Source Sans Pro", sans-serif;
 }
-#trans1 {
-  /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
-  background: #fffefe;
-  background: -moz-linear-gradient(top, #fffefe 0%, #75580d 100%);
-  background: -webkit-linear-gradient(top, #fffefe 0%, #75580d 100%);
-  background: linear-gradient(to bottom, #fffefe 0%, #75580d 100%);
-  /* End -this content was taken from https://htmlcheatsheet.com/css/ */
-  min-height: 15px;
-  text-align: center;
-  margin: 0;
-  border: 0;
-  padding: 0;
-}
 
-/**header**/
-nav,
-nav > a,
-nav h1 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  display: inline;
-  position: relative;
-}
-nav ul {
-  text-align: center;
-  vertical-align: center;
-  font-size: 25px;
-}
-@media (min-width: 350px) {
-  nav h1 {
-    font-size: 30px;
-    font-weight: 400;
-  }
-  button [class="navbar-toggler"] {
-    position: relative;
-    display: inline;
-  }
-}
 /**home**/
 .home {
   background-image: url("https://i.pinimg.com/originals/c6/c3/6a/c6c36a5600cdfd0089804215b5c95f04.jpg"); /**Image was used from google image search**/
@@ -57,50 +20,13 @@ nav ul {
   height: 100vh;
   color: #ffffff;
 }
+@media ()
 #textbox1 {
   background-color: rgba(121, 114, 114, 0.404);
-  margin: 30px auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
   border-radius: 15px;
-  font-size: 16px;
-  overflow: none;
-}
-/**learnmore**/
-.learnmore{
-    height: 100vh;
-    display: inline-block;
-}
-/**donate**/
-.donate{
-    height: 100vh;
-}
-/**footer**/
-footer {
-  bottom: 25px;
-  background-color: rgb(212, 212, 212);
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 0px;
-  padding: 5px 0;
-}
-footer div[class="col-4"] {
-  border-left: 2px solid rgba(0, 0, 0, 0.3);
-  border-right: 2px solid rgba(0, 0, 0, 0.3);
-}
-footer i {
-  font-size: 20px;
-  display: inline;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-footer p {
   font-size: 15px;
-  color: rgb(139, 139, 139);
-}
-footer h3 {
-  font-size: 20px;
-  display: inline;
-  margin-left: 5px;
-  margin-right: 5px;
-  text-decoration: underline;
+  height: inherit;
 }
