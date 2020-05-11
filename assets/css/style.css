@@ -1,10 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
 /**styles**/
-h1, h2, h3, h4, h5, h6{
-    font-family: "Oswald", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
 }
-p{
-    font-family: "Source Sans Pro", sans-serif;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: underline;
+}
+p {
+  font-family: "Source Sans Pro", sans-serif;
 }
 #trans1 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
@@ -60,68 +72,18 @@ nav ul {
   height: 100vh;
   color: #ffffff;
 }
- #textbox1{
-  background-color: rgba(121, 114, 114, 0.404);
-  margin-top: 10px;
-  margin-bottom: 5px;
-  margin-left: 2px;
-  margin-right: 2px;
-  overflow: hidden;
-  border-radius: 15px;
-  height: inherit;
-  padding: 2px;
-}
-#textbox1 p {
-  font-size: 4vw;
-}
-
-#textbox1 h2, #textbox1 h3 {
-  text-decoration: underline;
-}
-@media (min-width: 320px) {
-  #textbox1 h2,
-  #textbox1 h3 {
-    font-size: 5.5vw;
-  }
-  #textbox1 p{
-      font-size: 4.5vw;
-  }
-}
-@media (min-width: 768px) and (max-width: 1200px) {
-  
-  #textbox1 h2,
-  #textbox1 h3 {
-    font-size: 4vw;
-  }
-  nav h1{
-      font-size: 5vw;
-  }
-  #textbox1 p{
-      font-size: 3vw;
-  }
-}
-@media (min-width: 1200px) {
-    #textbox1 h2,
-  #textbox1 h3 {
-    font-size: 3vw;
-  }
-  nav h1{
-      font-size: 4vw;
-  }
-  nav a{
-      font-size: 3.5vw;
-  }
-  #textbox1 p{
-      font-size: 2vw;
-  }
-}
 /**learnmore**/
-.learnmore{
-    height: 100vh;
+.learnmore {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  height: 100vh;
+  color: #000000;
 }
 /**donate**/
-.donate{
-    height: 100vh;
+.donate {
+  height: 100vh;
 }
 /**footer**/
 footer {
@@ -152,5 +114,57 @@ footer h3 {
   display: inline;
   margin-left: 5px;
   margin-right: 5px;
-  text-decoration: underline;
 }
+
+/* textboxes */
+.textbox1 {
+  background-color: rgba(121, 114, 114, 0.404);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  
+  overflow: hidden;
+  border-radius: 15px;
+  height: inherit;
+  padding: 2px;
+}
+.textbox1 p {
+  font-size: 4vw;
+}
+
+@media (min-width: 320px) {
+  .textbox1 h2,
+  .textbox1 h3 {
+    font-size: 5.5vw;
+  }
+  .textbox1 p {
+    font-size: 4.5vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .textbox1 h2,
+  .textbox1 h3 {
+    font-size: 4vw;
+  }
+  nav h1 {
+    font-size: 5vw;
+  }
+  .textbox1 p {
+    font-size: 3vw;
+  }
+}
+@media (min-width: 1200px) {
+  .textbox1 h2,
+  .textbox1 h3 {
+    font-size: 3vw;
+  }
+  nav h1 {
+    font-size: 4vw;
+  }
+  nav a {
+    font-size: 3.5vw;
+  }
+  .textbox1 p {
+    font-size: 2vw;
+  }
+}
+
