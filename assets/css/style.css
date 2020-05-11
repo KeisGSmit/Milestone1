@@ -21,6 +21,7 @@ p{
 }
 
 /**header**/
+
 nav,
 nav > a,
 nav h1 {
@@ -35,7 +36,7 @@ nav ul {
   vertical-align: center;
   font-size: 25px;
 }
-@media (min-width: 350px) {
+@media (min-width: 370px) {
   nav h1 {
     font-size: 30px;
     font-weight: 400;
@@ -45,9 +46,11 @@ nav ul {
     display: inline;
   }
 }
+
 /**home**/
 .home {
   background-image: url("https://i.pinimg.com/originals/c6/c3/6a/c6c36a5600cdfd0089804215b5c95f04.jpg"); /**Image was used from google image search**/
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   display: grid;
@@ -57,10 +60,12 @@ nav ul {
   height: 100vh;
   color: #ffffff;
 }
-#textbox1 {
+ #textbox1{
   background-color: rgba(121, 114, 114, 0.404);
   margin-top: 10px;
   margin-bottom: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
   overflow: hidden;
   border-radius: 15px;
   height: inherit;
@@ -69,16 +74,50 @@ nav ul {
 #textbox1 p {
   font-size: 4vw;
 }
-@media (min-width: 768px) {
-  h2,
-  h3 {
-    font-size: 6vw;
+
+#textbox1 h2, #textbox1 h3 {
+  text-decoration: underline;
+}
+@media (min-width: 320px) {
+  #textbox1 h2,
+  #textbox1 h3 {
+    font-size: 5.5vw;
+  }
+  #textbox1 p{
+      font-size: 4.5vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  
+  #textbox1 h2,
+  #textbox1 h3 {
+    font-size: 4vw;
+  }
+  nav h1{
+      font-size: 5vw;
+  }
+  #textbox1 p{
+      font-size: 3vw;
+  }
+}
+@media (min-width: 1200px) {
+    #textbox1 h2,
+  #textbox1 h3 {
+    font-size: 3vw;
+  }
+  nav h1{
+      font-size: 4vw;
+  }
+  nav a{
+      font-size: 3.5vw;
+  }
+  #textbox1 p{
+      font-size: 2vw;
   }
 }
 /**learnmore**/
 .learnmore{
     height: 100vh;
-    display: inline-block;
 }
 /**donate**/
 .donate{
