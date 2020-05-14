@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
 /**styles**/
+*{
+    font-size: 14px;
+}
 h1,
 h2,
 h3,
@@ -35,13 +38,17 @@ p {
 /**header**/
 
 nav,
-nav > a,
-nav h1 {
+nav > a {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 25px;
   display: inline;
   position: relative;
+}
+nav h1{
+    display: inline;
+  position: relative;
+
 }
 nav ul {
   text-align: center;
@@ -74,12 +81,7 @@ nav ul {
 }
 /**learnmore**/
 .learnmore {
-  position: relative;
-  display: grid;
-  justify-items: center;
-  text-align: center;
-  height: 100vh;
-  color: #000000;
+ 
 }
 /**donate**/
 .donate {

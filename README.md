@@ -71,7 +71,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for the hero image was copied from the [South African Government - Essential services - Coronoavirus Covid-19](https://www.gov.za/Coronavirus/essential-services)
+- The text for the hero image ("Who are the essential workers?") was copied from the [South African Government - Essential services - Coronoavirus Covid-19](https://www.gov.za/Coronavirus/essential-services)
+- As this is a fictitious website content from "Who will be receiving the donations?" and "When will they be helped?" sections, is made up be the [creator of this website](https://github.com/KeisGSmit?tab=repositories) - feel free to view more of his other work.
+- As this is a fictitious website content from the footer is also made up. The above link will also take you to the creator of the website. 
 
 ### Media
 - The photos used in this site were obtained from ...
