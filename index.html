@@ -168,13 +168,17 @@
 						<h2>Donate Now!</h2>
 
 						<label for="first_name">First Name</label> <br>
-						<input type="text" id="first_name" name="first_name"><br>
+						<input type="text" id="first_name" name="first_name" required><br>
 
 						<label for="last_name">Last Name</label><br>
-						<input type="text" id="last_name" name="last_name"><br>
+						<input type="text" id="last_name" name="last_name" required><br>
 
 						<label for="email">Email Address</label><br>
-						<input type="email" name="email_address" id="email"><br>
+						<input type="email" name="email_address" id="email" required><br>
+
+                        <label for="amount">Amount you wish to donate (USD)</label><br>
+						<input type="number" min="1" max="999" step="1" name="donation" id="amount" required><br>
+
                         <br>                                                            
 						<!-- Button trigger modal from bootstrap -->
 						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">

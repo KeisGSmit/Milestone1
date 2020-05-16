@@ -119,6 +119,10 @@ form {
   min-width: 100%;
   padding: 30px;
 }
+div [class="modal-body"],
+div [class="modal-title"]{
+    color: #000000;
+}
 /**footer**/
 footer {
   bottom: 25px;
