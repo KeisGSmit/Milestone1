@@ -99,6 +99,7 @@ nav ul {
 .learnmore {
   height: auto;
 }
+
 /**donate**/
 .donate {
   height: 100vh;
@@ -161,18 +162,20 @@ footer h3 {
   h1 {
     font-size: 8vw;
   }
+  .textbox2 h2, 
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 5.5vw;
   }
+  .textbox2 p,
   .textbox1 p,
   .textbox1 a {
     font-size: 4.5vw;
     text-decoration: none;
-    color: #ffffff;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
+  .textbox2 h2,
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 4vw;
@@ -183,14 +186,15 @@ footer h3 {
   nav a[class="nav-link"] {
     font-size: 4vw;
   }
+  .textbox2 p,
   .textbox1 p,
   .textbox1 a {
     font-size: 3vw;
     text-decoration: none;
-    color: #ffffff;
   }
 }
 @media (min-width: 1200px) {
+  .textbox2 h2,
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 3vw;
@@ -204,10 +208,10 @@ footer h3 {
   nav a {
     font-size: 4vw;
   }
+  .textbox2 p,
   .textbox1 p,
   .textbox1 a {
     font-size: 2vw;
     text-decoration: none;
-    color: #ffffff;
   }
 }
