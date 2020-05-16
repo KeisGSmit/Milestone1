@@ -106,6 +106,20 @@ nav ul {
   background-image: url("https://eus-www.sway-cdn.com/s/lS9lnvgYelIJHUrK/images/AJBYoWDmgsV86b?quality=960&allowAnimation=false");
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+}
+#form-section{
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    margin: 35% 0;
+}
+form,
+form h2,
+form label{
+    background-color: rgba(58, 55, 55, 0.514);
+    color: #fafafa;
+    margin: 10px 35%;
 }
 /**footer**/
 footer {
@@ -194,7 +208,9 @@ footer h3 {
   }
 }
 @media (min-width: 1200px) {
-  .textbox2 h2,
+  .textbox2 h2{
+      font-size: 2.3vw;
+  }
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 3vw;
@@ -208,7 +224,14 @@ footer h3 {
   nav a {
     font-size: 4vw;
   }
-  .textbox2 p,
+  .textbox2 p{
+      font-size: 1.3vw;
+      text-decoration: none;
+  }
+  .textbox2 a{
+      color: #000000;
+  }
+
   .textbox1 p,
   .textbox1 a {
     font-size: 2vw;
