@@ -12,6 +12,33 @@
 	<!--CDN for font awesome Icons-->
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<title>Title</title>
+    <!--Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_validation_empty_input-->
+    <script>
+    function validateForm() {
+  var a = document.forms["myform"]["first_name"].value;
+  if (a == "" || a == null) {
+    alert("First name must be filled out");
+    return false;
+  }
+  function validateForm() {
+  var b = document.forms["myform"]["last_name"].value;
+  if (b == "" || b == null) {
+    alert("Last name must be filled out");
+    return false;
+  }
+  function validateForm() {
+  var c = document.forms["myform"]["email_address"].value;
+  if (c == "" || c == null) {
+    alert("Email address must be provided");
+    return false;
+  }
+  function validateForm() {
+  var d = document.forms["myform"]["donation"].value;
+  if (d == "" || d == null) {
+    alert("Why are you not donating money?");
+    return false;
+  }
+    </script>
 </head>
 
 <body>
@@ -163,7 +190,7 @@
 			<div class="col-12">
              <!--Form-->
 				<section class="form-section">
-					<form class="donation" method="post" action="https://formdump.codeinstitute.net/">
+					<form class="donation" name="myform" onsubmit="return validateForm()" method="post" required>
 
 						<h2>Donate Now!</h2>
 
@@ -177,13 +204,12 @@
 						<input type="email" name="email_address" id="email" required><br>
 
                         <label for="amount">Amount you wish to donate (USD)</label><br>
-						<input type="number" min="1" max="999" step="1" name="donation" id="amount" required><br>
+						<input type="number" min="1" step="1" name="donation" id="amount" required><br>
 
                         <br>                                                            
 						<!-- Button trigger modal from bootstrap -->
-						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
-                            Donate!
-                        </button>
+						<input type="button submit" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop" value="Donate" >
+                            
 
 								<!-- Modal from bootstrap-->
 								<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
