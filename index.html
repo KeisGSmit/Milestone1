@@ -13,30 +13,7 @@
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<title>Title</title>
     <!--Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_validation_empty_input-->
-    <script>
-    function validateForm() {
-  var a = document.forms["myform"]["first_name"].value;
-  var b = document.forms["myform"]["last_name"].value;
-  var c = document.forms["myform"]["email_address"].value;
-  var d = document.forms["myform"]["donation"].value;
-  if (a == "" || a == null) {
-    alert("First name must be filled out");
-    return false;
-  }  
-  if (b == "" || b == null) {
-    alert("Last name must be filled out");
-    return false;
-  }
-  if (c == "" || c == null) {
-    alert("Email address must be provided");
-    return false;
-  }
-  if (d == "" || d == null) {
-    alert("Why are you not donating money?");
-    return false;
-  }
-  });
-    </script>
+    
 </head>
 
 <body>
@@ -295,6 +272,7 @@
 			</script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+            <script src="assets/js/script.js"></script>
 </body>
 
 </html>
