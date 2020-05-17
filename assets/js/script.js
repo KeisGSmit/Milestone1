@@ -1,4 +1,4 @@
-function validateForm() {
+function validateForm(){
   var a = document.forms["myform"]["first_name"].value;
   var b = document.forms["myform"]["last_name"].value;
   var c = document.forms["myform"]["email_address"].value;
@@ -19,4 +19,4 @@ function validateForm() {
     alert("Why are you not donating money?");
     return false;
   }
-  });
+  }
