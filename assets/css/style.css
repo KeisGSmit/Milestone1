@@ -9,15 +9,10 @@ h5,
 h6 {
   font-family: "Oswald", sans-serif;
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-decoration: underline;
-}
+
 p {
   font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
 }
 #trans1 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
@@ -89,13 +84,17 @@ nav ul {
   height: 100vh;
   color: #ffffff;
 }
-
+.home img{
+    width:75%;
+    height: auto;
+}
 /**learnmore**/
 .learnmore {
-  height: 100vh;
+  height: auto;
   display: grid;
   justify-content: center;
 }
+
 
 /**donate**/
 .donate {
@@ -156,9 +155,6 @@ footer h3 {
 
 /* textboxes */
 .textbox1 {
-  
-  margin-top: 10%;
-  margin-bottom: 10%;
   overflow: hidden;
   border-radius: 15px;
   height: inherit;
@@ -225,10 +221,14 @@ footer h3 {
   }
   
   nav a[class="nav-link"] {
-    font-size: 45px;
+    font-size: 35px;
   }
   nav a {
     font-size: 3vw;
+  }
+  nav img{
+      height: 135px;
+      top: 9px;
   }
   
   .textbox1 p{
