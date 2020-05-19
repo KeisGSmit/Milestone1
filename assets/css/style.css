@@ -58,31 +58,24 @@ nav,
 nav > a {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 5vh;
   display: inline;
   position: relative;
   overflow: hidden;
   
 }
-nav h1 {
+nav img{
+    height: 13vh;
+    width: auto;
+}
+nav img {
   display: inline;
   position: relative;
 }
 nav ul {
   text-align: center;
   vertical-align: center;
-  font-size: 25px;
-}
-
-@media (min-width: 370px) {
-  nav h1 {
-    font-size: 30px;
-    font-weight: 400;
-  }
-  button [class="navbar-toggler"] {
-    position: relative;
-    display: inline;
-  }
+  font-size: 3vh;
 }
 
 /**home**/
@@ -177,12 +170,15 @@ footer h3 {
   color: #000000;
 }
 
+/* Media queries */
 
 @media (min-width: 320px) {
   h1 {
     font-size: 8vw;
   }
-  
+  nav img{
+      height: 11vh;
+  }
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 5.5vw;
@@ -194,17 +190,25 @@ footer h3 {
   }
   
 }
+@media (min-width: 370px) {
+  nav img {
+    font-size: 12vh;
+  }
+  button [class="navbar-toggler"] {
+    position: relative;
+    display: inline;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1200px) {
   
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 4vw;
   }
-  nav h1 {
-    font-size: 5vw;
-  }
+  
   nav a[class="nav-link"] {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   
   .textbox1 p{
@@ -219,14 +223,12 @@ footer h3 {
   .textbox1 h3 {
     font-size: 3vw;
   }
-  nav h1 {
-    font-size: 4vw;
-  }
+  
   nav a[class="nav-link"] {
-    font-size: 3vw;
+    font-size: 45px;
   }
   nav a {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   
   .textbox1 p{
