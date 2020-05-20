@@ -85,15 +85,22 @@ nav ul {
 .callout {
   background-color: rgba(0, 0, 0, 0.25);
   position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
   margin-top: 10px;
   margin-bottom: 5px;
-  overflow: hidden;
   border-radius: 15px;
-  height: 75vh;
+  height: 30vh;
   width: 92vw;
   padding: 20px;
 }
 
+
+.callout i{
+    font-size: 225%;
+    text-align: center;
+}
 /**learnmore**/
 .learnmore {
   height: auto;
