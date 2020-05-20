@@ -16,10 +16,10 @@ p {
 }
 #trans1 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
-  background: #FFFFFF;
-  background: -moz-linear-gradient(top, #FFFFFF 0%, #3611ED 100%);
-  background: -webkit-linear-gradient(top, #FFFFFF 0%, #3611ED 100%);
-  background: linear-gradient(to bottom, #FFFFFF 0%, #3611ED 100%);
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #3611ed 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #3611ed 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #3611ed 100%);
   /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
 
@@ -29,20 +29,20 @@ p {
 }
 #trans2 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
- background: #3611ED;
- background: -moz-linear-gradient(top, #3611ED 0%, #FFFFFF 100%);
- background: -webkit-linear-gradient(top, #3611ED 0%, #FFFFFF 100%);
- background: linear-gradient(to bottom, #3611ED 0%, #FFFFFF 100%);
+  background: #3611ed;
+  background: -moz-linear-gradient(top, #3611ed 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #3611ed 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #3611ed 0%, #ffffff 100%);
   /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
 }
 
 #trans3 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
-  background: #FFFFFF;
-  background: -moz-linear-gradient(top, #FFFFFF 0%, #2407B4 100%);
-  background: -webkit-linear-gradient(top, #FFFFFF 0%, #2407B4 100%);
-  background: linear-gradient(to bottom, #FFFFFF 0%, #2407B4 100%);
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #2407b4 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #2407b4 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #2407b4 100%);
   /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
 }
@@ -57,11 +57,10 @@ nav > a {
   display: inline;
   position: relative;
   overflow: hidden;
-  
 }
-nav img{
-    height: 13vh;
-    width: auto;
+nav img {
+  height: 13vh;
+  width: auto;
 }
 nav img {
   display: inline;
@@ -75,30 +74,26 @@ nav ul {
 
 /**home**/
 .home {
-  background-color: #3611ED;
+  background-color: #3611ed;
   position: relative;
   display: grid;
   justify-items: center;
+  align-items: center;
   height: 100vh;
   color: #ffffff;
 }
-.textboxA {
-  
+.callout {
+  background-color: rgba(0, 0, 0, 0.25);
+  position: relative;
   margin-top: 10px;
   margin-bottom: 5px;
   overflow: hidden;
   border-radius: 15px;
-  height: inherit;
+  height: 75vh;
+  width: 92vw;
   padding: 20px;
 }
-.home img{
-    width:100%;
-    height: auto;
-    border-radius: 20%;
-}
-.home h1{
-    right: 20%;
-}
+
 /**learnmore**/
 .learnmore {
   height: auto;
@@ -106,11 +101,10 @@ nav ul {
   justify-content: center;
 }
 
-
 /**donate**/
 .donate {
   height: 100vh;
-  background-color: #2407B4;
+  background-color: #2407b4;
   text-align: center;
   display: grid;
   justify-items: center;
@@ -124,17 +118,17 @@ form {
   min-width: 100%;
   padding: 30px;
 }
-input{
-    width:100%
+input {
+  width: 100%;
 }
 div [class="modal-body"],
-div [class="modal-title"]{
-    color: #000000;
+div [class="modal-title"] {
+  color: #000000;
 }
 /**footer**/
 footer {
   bottom: 25px;
-  background-color: #1C0686;
+  background-color: #1c0686;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
@@ -171,7 +165,7 @@ footer h3 {
   height: inherit;
   padding: 2px;
 }
-.textbox1 p{
+.textbox1 p {
   font-size: 4vw;
   text-decoration: none;
   color: #000000;
@@ -180,22 +174,19 @@ footer h3 {
 /* Media queries */
 
 @media (min-width: 320px) {
-  h1 {
-    font-size: 8vw;
-  }
-  nav img{
-      height: 11vh;
+  
+  nav img {
+    height: 11vh;
   }
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 5.5vw;
   }
-  
-  .textbox1 p{
+
+  .textbox1 p {
     font-size: 4.5vw;
     text-decoration: none;
   }
-  
 }
 @media (min-width: 370px) {
   nav img {
@@ -208,41 +199,38 @@ footer h3 {
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 4vw;
   }
-  
+
   nav a[class="nav-link"] {
     font-size: 3vw;
   }
-  
-  .textbox1 p{
+
+  .textbox1 p {
     font-size: 3vw;
     text-decoration: none;
   }
-  
 }
 @media (min-width: 1200px) {
-  
   .textbox1 h2,
   .textbox1 h3 {
     font-size: 3vw;
   }
-  
+
   nav a[class="nav-link"] {
     font-size: 35px;
   }
   nav a {
     font-size: 3vw;
   }
-  nav img{
-      height: 135px;
-      top: 9px;
+  nav img {
+    height: 135px;
+    top: 9px;
   }
-  
-  .textbox1 p{
+
+  .textbox1 p {
     font-size: 2vw;
     text-decoration: none;
   }
