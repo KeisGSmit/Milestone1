@@ -79,14 +79,25 @@ nav ul {
   position: relative;
   display: grid;
   justify-items: center;
-  align-items: center;
-  text-align: center;
   height: 100vh;
   color: #ffffff;
 }
+.textboxA {
+  
+  margin-top: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  border-radius: 15px;
+  height: inherit;
+  padding: 20px;
+}
 .home img{
-    width:75%;
+    width:100%;
     height: auto;
+    border-radius: 20%;
+}
+.home h1{
+    right: 20%;
 }
 /**learnmore**/
 .learnmore {
