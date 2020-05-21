@@ -108,7 +108,20 @@ nav ul {
   display: grid;
   justify-content: center;
 }
-
+.back2homecontainer {
+  background-color: #3611ed;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  height: auto;
+  width: 92vw;
+  padding: 20px;
+  text-overflow: initial;
+  }
 /**donate**/
 .donate {
   height: 100vh;
