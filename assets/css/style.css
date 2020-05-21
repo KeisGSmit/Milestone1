@@ -94,7 +94,8 @@ nav ul {
   height: 30vh;
   width: 92vw;
   padding: 20px;
-}
+  text-overflow: initial;
+  }
 
 
 .callout i{
