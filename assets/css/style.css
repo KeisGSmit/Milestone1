@@ -91,12 +91,11 @@ nav ul {
   margin-top: 10px;
   margin-bottom: 5px;
   border-radius: 15px;
-  height: 30vh;
+  min-height: 30vh;
   width: 92vw;
   padding: 20px;
-  text-overflow: initial;
+  
   }
-
 
 .callout i{
     font-size: 225%;
@@ -111,9 +110,7 @@ nav ul {
 .back2homecontainer {
   background-color: #3611ed;
   position: relative;
-  display: grid;
-  justify-items: center;
-  align-items: center;
+  display: inline-block;
   margin-top: 10px;
   margin-bottom: 5px;
   border-radius: 15px;
