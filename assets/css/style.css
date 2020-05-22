@@ -118,23 +118,32 @@ nav ul {
   width: 92vw;
   padding: 20px;
   text-overflow: initial;
+  font-size: inherit;
+  }
+  .back2homecontainer a{
+      font-size: inherit;
   }
 /**donate**/
 .donate {
-  height: 100vh;
-  background-color: #2407b4;
+  height: auto;
+  background-image: url("https://www.washingtonpost.com/resizer/gksHoZzAbWAG0s6iG39TisVzO6o=/arc-anglerfish-washpost-prod-washpost/public/A6BFFMCKMAI6VELE2MKUVWFFZU.jpg");
+  background-repeat: none;
+  background-size: cover;
   text-align: center;
-  display: grid;
-  justify-items: center;
-  align-items: center;
 }
 
 form {
   position: relative;
   background-color: rgba(58, 55, 55, 0.514);
   color: #fafafa;
-  min-width: 100%;
+  min-width: 75%;
+  max-width: 50vw;
+  height: auto;
   padding: 30px;
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  
 }
 input {
   width: 100%;
@@ -143,6 +152,23 @@ div [class="modal-body"],
 div [class="modal-title"] {
   color: #000000;
 }
+.back2homecontainer2 {
+  background-color: #3611ed;
+  position: relative;
+  display: inline-block;
+  margin-top: 10%;
+  margin-bottom: auto;
+  border-radius: 15px;
+  height: auto;
+  width: 92vw;
+  padding: 20px;
+  text-overflow: initial;
+  font-size: inherit;
+  }
+  .back2homecontainer2 a{
+      font-size: inherit;
+  }
+
 /**footer**/
 footer {
   bottom: 25px;
@@ -230,6 +256,7 @@ footer h3 {
     font-size: 3vw;
     text-decoration: none;
   }
+  
 }
 @media (min-width: 1200px) {
   .textbox1 h2,
