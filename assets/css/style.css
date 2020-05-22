@@ -79,7 +79,7 @@ nav ul {
   display: grid;
   justify-items: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
   color: #ffffff;
 }
 .callout {
@@ -94,12 +94,18 @@ nav ul {
   min-height: 30vh;
   width: 92vw;
   padding: 20px;
-  
-  }
+}
 
-.callout i{
-    font-size: 225%;
-    text-align: center;
+.callout i {
+  font-size: 225%;
+  text-align: center;
+}
+.landimages {
+  max-height: 30vh;
+  border-radius: 0.25rem;
+  margin-right: 0;
+  margin-left: 0;
+  display: inline-block;
 }
 /**learnmore**/
 .learnmore {
@@ -119,10 +125,10 @@ nav ul {
   padding: 20px;
   text-overflow: initial;
   font-size: inherit;
-  }
-  .back2homecontainer a{
-      font-size: inherit;
-  }
+}
+.back2homecontainer a {
+  font-size: inherit;
+}
 /**donate**/
 .donate {
   height: auto;
@@ -143,7 +149,6 @@ form {
   margin-top: 15%;
   margin-left: 15%;
   margin-right: 15%;
-  
 }
 input {
   width: 100%;
@@ -164,10 +169,10 @@ div [class="modal-title"] {
   padding: 20px;
   text-overflow: initial;
   font-size: inherit;
-  }
-  .back2homecontainer2 a{
-      font-size: inherit;
-  }
+}
+.back2homecontainer2 a {
+  font-size: inherit;
+}
 
 /**footer**/
 footer {
@@ -218,7 +223,6 @@ footer h3 {
 /* Media queries */
 
 @media (min-width: 320px) {
-  
   nav img {
     height: 11vh;
   }
@@ -256,7 +260,6 @@ footer h3 {
     font-size: 3vw;
     text-decoration: none;
   }
-  
 }
 @media (min-width: 1200px) {
   .textbox1 h2,
