@@ -129,6 +129,7 @@ nav ul {
 .back2homecontainer a {
   font-size: inherit;
 }
+
 /**donate**/
 .donate {
   height: auto;
@@ -259,6 +260,9 @@ footer h3 {
   .textbox1 p {
     font-size: 3vw;
     text-decoration: none;
+  }
+  .callout p{
+      font-size: 3vh;
   }
 }
 @media (min-width: 1200px) {
