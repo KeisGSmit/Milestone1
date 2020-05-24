@@ -107,6 +107,12 @@ nav ul {
   margin-left: 0;
   display: inline-block;
 }
+
+.addimages{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    bottom:80%;
+}
 /**learnmore**/
 .learnmore {
   height: auto;
@@ -262,7 +268,7 @@ footer h3 {
     text-decoration: none;
   }
   .callout p{
-      font-size: 3vh;
+      font-size: 2vh;
   }
 }
 @media (min-width: 1200px) {
