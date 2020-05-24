@@ -79,7 +79,7 @@ nav ul {
   display: grid;
   justify-items: center;
   align-items: center;
-  height: auto;
+  height: 100vh;
   color: #ffffff;
 }
 .callout {
@@ -91,7 +91,7 @@ nav ul {
   margin-top: 10px;
   margin-bottom: 5px;
   border-radius: 15px;
-  min-height: 30vh;
+  min-height: auto;
   width: 92vw;
   padding: 20px;
 }
@@ -268,7 +268,7 @@ footer h3 {
     text-decoration: none;
   }
   .callout p{
-      font-size: 2vh;
+      font-size: 1.5vh;
   }
 }
 @media (min-width: 1200px) {
