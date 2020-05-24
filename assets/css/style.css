@@ -296,4 +296,7 @@ footer h3 {
     font-size: 2vw;
     text-decoration: none;
   }
+  .callout p{
+      font-size: 2vh;
+  }
 }
