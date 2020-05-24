@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
 /**styles**/
 
@@ -17,8 +24,8 @@ p {
 #trans1 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
   background: #ffffff;
-  background: -moz-linear-gradient(top, #ffffff 0%, #3611ed 100%);
-  background: -webkit-linear-gradient(top, #ffffff 0%, #3611ed 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#3611ed));
+  background: -o-linear-gradient(top, #ffffff 0%, #3611ed 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #3611ed 100%);
   /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
@@ -30,8 +37,8 @@ p {
 #trans2 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
   background: #3611ed;
-  background: -moz-linear-gradient(top, #3611ed 0%, #ffffff 100%);
-  background: -webkit-linear-gradient(top, #3611ed 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#3611ed), to(#ffffff));
+  background: -o-linear-gradient(top, #3611ed 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #3611ed 0%, #ffffff 100%);
   /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
@@ -40,8 +47,8 @@ p {
 #trans3 {
   /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
   background: #ffffff;
-  background: -moz-linear-gradient(top, #ffffff 0%, #2407b4 100%);
-  background: -webkit-linear-gradient(top, #ffffff 0%, #2407b4 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#2407b4));
+  background: -o-linear-gradient(top, #ffffff 0%, #2407b4 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #2407b4 100%);
   /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
@@ -76,9 +83,12 @@ nav ul {
 .home {
   background-color: #3611ed;
   position: relative;
+  display: -ms-grid;
   display: grid;
   justify-items: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   color: #ffffff;
 }
@@ -86,9 +96,12 @@ nav ul {
 .callout {
   background-color: rgba(0, 0, 0, 0.25);
   position: relative;
+  display: -ms-grid;
   display: grid;
   justify-items: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 10px;
   margin-bottom: 5px;
   border-radius: 15px;
@@ -118,8 +131,11 @@ nav ul {
 /**learnmore**/
 .learnmore {
   height: auto;
+  display: -ms-grid;
   display: grid;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .back2homecontainer {
   background-color: #3611ed;
@@ -131,7 +147,8 @@ nav ul {
   height: auto;
   width: 92vw;
   padding: 20px;
-  text-overflow: initial;
+  -o-text-overflow: initial;
+     text-overflow: initial;
   font-size: inherit;
 }
 .back2homecontainer a {
@@ -177,7 +194,8 @@ div [class="modal-title"] {
   height: auto;
   width: 92vw;
   padding: 20px;
-  text-overflow: initial;
+  -o-text-overflow: initial;
+     text-overflow: initial;
   font-size: inherit;
 }
 .back2homecontainer2 a {
