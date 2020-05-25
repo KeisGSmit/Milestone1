@@ -1,8 +1,9 @@
-# Your Project's Name
+# Covid Comfort
 
-One or two paragraphs providing an overview of your project.
+Since late December 2019, until now, the world has been changed by a pandemic. The Covid-19 (Respiratory disease) virus has spread to all the areas of the world. The scale of this pandemic can be compared to the swine flu pandemic in 2010 or the Spanish flu in 1918. The pandemic had a massive shock on the stock market. This left many essential workers with the short end of the stick. The aim of the website is to help the essential workers make ends meet. “Covid Comfort” Aims to compensate for the social divide. Essential workers normally survive on pay cheque to pay cheque and there are no extra funds for extra expenses. “Covid Comfort” wants to bridge that social issue; it aims to supply people on the front line with some funds so that they can afford personal protective equipment, help them afford their rent or just help them afford their next meal. 
 
-Essentially, this part is your sales pitch.
+We- The human race- need to come together and unite now more than ever, helping each other, to flatten the curve of the virus so that we can return to our normal lives again, as fast as possible. 
+
  
 ## UX
  
@@ -82,4 +83,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - Scott (Tutor) from the Code Institute helped with errors in the navigation bar burger Icon.  
-- Tim (Tutor) from the Code Institute helped with understanding and executing media queries. 
+- Tim (Tutor) from the Code Institute helped with understanding and executing media queries.
+- Dick Vlaanderen (mentor) from the Code Institute helpped with wrting the Java Script code for the form validation. 
