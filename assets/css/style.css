@@ -242,9 +242,16 @@ footer h3 {
   border-radius: 15px;
   height: inherit;
   padding: 2px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-.textbox1 p {
-  font-size: 4vw;
+.textbox1 p{
+  font-size: 2vw;
+  text-decoration: none;
+  color: #000000;
+}
+.textbox1 h3 {
+  font-size: 3vw;
   text-decoration: none;
   color: #000000;
 }
@@ -255,13 +262,12 @@ footer h3 {
   nav img {
     height: 11vh;
   }
-  .textbox1 h2,
-  .textbox1 h3 {
-    font-size: 5.5vw;
-  }
-
   .textbox1 p {
-    font-size: 4.5vw;
+    font-size: 5vw;
+    text-decoration: none;
+  }
+  .textbox1 h3 {
+    font-size: 7vw;
     text-decoration: none;
   }
 }
@@ -292,9 +298,11 @@ footer h3 {
   .callout p{
       font-size: 1.5vh;
   }
+
 .textbox1 {
     margin-left: 5%;
     margin-right: 5%;
+  }
 }
 @media (min-width: 1200px) {
 .textbox1 {
@@ -304,7 +312,7 @@ footer h3 {
 
   .textbox1 h2,
   .textbox1 h3 {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   nav a[class="nav-link"] {
@@ -319,7 +327,7 @@ footer h3 {
   }
 
   .textbox1 p {
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-decoration: none;
   }
   .callout p{
@@ -328,4 +336,5 @@ footer h3 {
   .callout h1{
       font-size: 4vw;
   }
-}
+} 
+} 
