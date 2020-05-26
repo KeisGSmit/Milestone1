@@ -292,11 +292,19 @@ footer h3 {
   .callout p{
       font-size: 1.5vh;
   }
+.textbox1 {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 @media (min-width: 1200px) {
+.textbox1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
   .textbox1 h2,
   .textbox1 h3 {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   nav a[class="nav-link"] {
@@ -311,10 +319,13 @@ footer h3 {
   }
 
   .textbox1 p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-decoration: none;
   }
   .callout p{
-      font-size: 2vh;
+      font-size: 1.5vw;
+  }
+  .callout h1{
+      font-size: 4vw;
   }
 }
