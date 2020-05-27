@@ -1,15 +1,34 @@
 # Covid Comfort
 
-Since late December 2019, until now, the world has been changed by a pandemic. The Covid-19 (Respiratory disease) virus has spread to all the areas of the world. The scale of this pandemic can be compared to the swine flu pandemic in 2010 or the Spanish flu in 1918. The pandemic had a massive shock on the stock market. This left many essential workers with the short end of the stick. The aim of the website is to help the essential workers make ends meet. “Covid Comfort” Aims to compensate for the social divide. Essential workers normally survive on pay cheque to pay cheque and there are no extra funds for extra expenses. “Covid Comfort” wants to bridge that social issue; it aims to supply people on the front line with some funds so that they can afford personal protective equipment, help them afford their rent or just help them afford their next meal. 
+Since late December 2019, until now, the world has been changed by a pandemic. The Covid-19 (Respiratory disease) virus has spread to all the areas of the world. The scale of this pandemic can be compared to the swine flu pandemic in 2010 or the Spanish flu in 1918.
+ The pandemic had a massive shock on the stock market.
+  This left many essential workers with the short end of the stick.
+   The aim of the website is to help the essential workers make ends meet.
+    “Covid Comfort” Aims to compensate for the social divide.
+     Essential workers normally survive on pay cheque to pay cheque and there are no extra funds for extra expenses.
+      “Covid Comfort” wants to bridge that social issue; it aims to supply people on the front line with some funds so that
+       they can afford personal protective equipment, 
+       help them afford their rent or just help them afford their next meal. 
 
-We- The human race- need to come together and unite now more than ever, helping each other, to flatten the curve of the virus so that we can return to our normal lives again, as fast as possible. 
+We- The human race- need to come together and unite now more than ever, 
+helping each other, to flatten the curve of the virus so that we can return to our normal 
+lives again, as fast as possible. 
 
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+In this section I want to provide a deep insight into my UX process.
+ I have explored [the strategy plane, the scope plane and the structure plane](readme_files/theuxdesign.pdf) in as much depth as I possibly could.
+The link should open a pdf file. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+I mentioned in the pdf that I will provide a list of User Stories. The first user story focuses on the modern internet user with a low attention Span. 
+    - As an internet user
+        - I want to get a general overview of what this website is about so that I need to know if I need to focus or not, so I look at the landing page.
+        - The landing page has made me:
+            - Want to go to the donate section, to donate money:
+                - I can get there by clicking the "donate" button in the top navigation bar or I can scroll to it.
+                    - the form made me: 
+            - want to learn more, 
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
