@@ -38,7 +38,7 @@ This feature is not available yet, including a contact section. This will be imp
 - As any User, I want to learn more about "Covid Comfort", to see what the company offers and who they are helping. 
 
 This is done by clicking the "Learn More" buttton in the navigation bar. This will take the users to the "Learn more" section where they can read through the content of the page 
-and proccess the information presented. 
+and process the information presented. 
 
 - As any user, I want to navigate to other sites that provide more information and accept donations properly.
 
@@ -99,13 +99,13 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - [Unsplash](https://unsplash.com/)
     - This website provided me with media I used for my landing page 
 - [Markup Validation service](https://validator.w3.org/) 
-    - I used the W3C Validation service to Validate my HTML and CSS code before I did my final commit. 
+    - I used the W3C Validation service to validate my HTML and CSS code before I did my final commit. 
 - [Contrast ratio](https://contrast-ratio.com/) 
     - I used Contrast ratio to find a font colour that will suit my colour pallet as much as possible. 
 - [HTMLCheatSheets - css](https://htmlcheatsheet.com/css/)
     - I used this website to create a CSS gradient background for divisions in my html between sections of the website for design purposes.  
 - [GitHub](https://github.com/)
-    - GitHub is the site where The current repository is being hosted on
+    - GitHub is the site where the current repository is being hosted on
 - [Git](https://git-scm.com/)
     - Git was used to "deploy" changes to my code to GitHub and maintain version control. 
 - [Gitpod](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki?hl=en)
@@ -140,7 +140,7 @@ If any data is missing from any input field, the modal will not activate. Thus t
     1. Clicking on the logo takes user to the landing page.
     2. Clicking on the "Home" link takes user to the landing page.
     3. Clicking on the "Learn More" link takes the user to the "Learn more" section.
-    4. clicking on the "Donate" link takes the user to the "Donate" section.
+    4. Clicking on the "Donate" link takes the user to the "Donate" section.
 
 The main navigation bar works as expected
 
@@ -178,7 +178,7 @@ In my repository on GitHub, I went to settings, scrolled down to Github Pages, s
 Then a link was provided to me. The link took me to my deployed web page. All seperate branches were merged into the master branch to create the final product. 
 
 The main difference between the deployed version and the development version (Using developer tools built into google chrome) was;
-- The development version had a issue where on mobile devices the user was able to slightly scroll horizontally, This was not the case in the deployed version.
+- The development version had an issue where on mobile devices the user was able to slightly scroll horizontally, This was not the case in the deployed version.
     - This was tested in the early phases by sharing the live link to a mobile device and seeing that being able to scroll horizontally was not possible
 
 The device used by the creator of this project has windows 10 OS. 
@@ -194,9 +194,9 @@ Right clicking on the file and hovering over, "Open with", will display apps tha
 - As this is a fictitious website content from "When will essential workers be receiving the donations?", is made up by me.
 - As this is a fictitious website content from the landing page (Quotes) is also made up.
 - The slogan of the company was made up on the spot. There was research done and no company appeared when the slogan was googled. 
-- The Form was persoanlly designed by myself.
+- The Form was personally designed by myself.
 - The Legal statement made in the footer was made up as well and has not been proccessed by legal company. 
-- The content in the footer was phrased by myself
+- The content in the footer was phrased by myself.
 
 ### Media
 - The photos used in the landing page were obtained from [Unsplash](https://unsplash.com/)
