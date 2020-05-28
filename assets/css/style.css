@@ -4,7 +4,7 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-
+/* this is the link to the google fonts that I imported */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
 /**styles**/
 
@@ -58,6 +58,7 @@ p {
 
 nav,
 nav > a {
+    /* Oswald family is from google fonts */
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 5vh;
@@ -159,6 +160,7 @@ nav ul {
 /**donate**/
 .donate {
   height: auto;
+  /* the background image here is mentioned in the credits section of the readme file */
   background-image: url("https://www.washingtonpost.com/resizer/gksHoZzAbWAG0s6iG39TisVzO6o=/arc-anglerfish-washpost-prod-washpost/public/A6BFFMCKMAI6VELE2MKUVWFFZU.jpg");
   background-repeat: no-repeat;
   background-size: cover;
