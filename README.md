@@ -116,54 +116,104 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - [Microsoft Office](https://www.office.com/)
     - Microsoft Word was used to spell check content of the repository and create pdf files. 
     - Microsoft Excel was used to create the table in [the strategy plane, the scope plane and the structure plane](readme_files/theuxdesign.pdf) pdf.
-
+- [favicon](https://www.favicon.cc/) and a [tutorial](https://tutorialehtml.com/en/what-is-favicon-ico-usage/)  
+    - Favicon was used to create the logo in the tab of the website.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well.
- Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
- with the project providing an easy and straightforward way for the users to achieve their goals.
+In this section, I will provide information on testing to demonstrate that the site works well.
+ Essentially, in this part I want to go over all of my user stories from the UX section and ensure that they all work as intended, 
+ with the project providing an easy and straightforward way for the users to achieve their goals. 
+ I will also be demonstrating the positive user experience by testing additional features as well.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach,
- link to the test file(s) and explain how to run them.
+1. The Donate form 
+    1. Go to the donate section by clicking the various "donate" links (in the main navigation bar or the secondary navigation bars) or scroll to the section. 
+    2. Press Donate without filling out any data, a error message appears in the "First Name" input field.
+    3. Added data to "First Name", clicked "donate", error message appears in the "Last Name" input field.
+    4. Added data to "Last Name", clicked "donate", error message appears in the "Email Address" input field.
+    5. Added data to "Email Address", clicked "donate", error message appears in the "Amount you wish to donate" input field.
+    6. Added data to "Amount you wish to donate", clicked "donate", a modal appears providing feedback to user that the form was filled out successfully.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant.
- A particularly useful form for describing your testing process is via scenarios, such as:
+If any data is missing from any input field, the modal will not activate. Thus the form works as expected.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+2. The main navigation bar on the landing page.
+    1. Clicking on the logo takes user to the landing page.
+    2. Clicking on the "Home" link takes user to the landing page.
+    3. Clicking on the "Learn More" link takes the user to the "Learn more" section.
+    4. clicking on the "Donate" link takes the user to the "Donate" section.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The main navigation bar works as expected
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+3. The secondary navigation bar in the "Learn more" section. 
+    1. Clicking on the "Back to Home" button takes the user to the landing page.
+    2. Clicking on the "Donate now" button takes the user to the "Donate" section.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The secondary navigation bar in the "learn more" section works as expected. 
+
+4. The secondary navigation bar in the "Donate" section. 
+    1. Clicking on the "Back to Home" button takes the user to the landing page.
+    2. Clicking on the "Back to Leatn More" button takes the user to the "Learn more" section.
+
+The secondary navigation bar in the "Donate" section works as expected. 
+
+5. Testing external links in the footer.
+    1. Clicking on the "World Health Organisation" link takes users to the covid-19 WHO page. 
+    2. Clicking on the "World Meter" link takes users to the "World Meter" site displaying the pandemic statistics
+    3. Clicking the "USBG" link takes the users to the Bartender Emergency Assistance Program
+    4. Clicking on the "Restaurant Workers Community Foundation" link takes users to the Restaurant Workers’ Community Foundation official site.
+
+The external links in the footer works as expected. 
+
+The project works on different browsers and screen sizes in the same manner. The browsers tested were: Microsoft edge, Google Chrome and Mozilla firefox. 
+The project displays on mobile devices in the same manner as in the [wireframes/mockups](readme_files/TheFinal.pdf). 
+
+During testing it was decided that the attribute `target="_blank"` needed to be applied to the external links, this has been done. 
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This section describes the process I went through to deploy the project to a hosting platform (in this case: GitHub Pages).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+In my repository on GitHub, I went to settings, scrolled down to Github Pages, selected "master branch" on my "Source" drop down list. 
+Then a link was provided to me. The link took me to my deployed web page. All seperate branches were merged into the master branch to create the final product. 
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The main difference between the deployed version and the development version (Using developer tools built into google chrome) was;
+- The development version had a issue where on mobile devices the user was able to slightly scroll horizontally, This was not the case in the deployed version.
+    - This was tested in the early phases by sharing the live link to a mobile device and seeing that being able to scroll horizontally was not possible
+
+The device used by the creator of this project has windows 10 OS. 
+If the repository was cloned or downloaded to a local device (running windows), the website can be launched by double clicking the index.html file. 
+Right clicking on the file and hovering over, "Open with", will display apps that can display the code. selecting one will display the code in index.html locally. 
+
 
 
 ## Credits
 
 ### Content
-- The text for the hero image ("Who are the essential workers?") was copied from the [South African Government - Essential services - Coronoavirus Covid-19](https://www.gov.za/Coronavirus/essential-services)
-- As this is a fictitious website content from "Who will be receiving the donations?" and "When will they be helped?" sections, is made up be the [creator of this website](https://github.com/KeisGSmit?tab=repositories) - feel free to view more of his other work.
-- As this is a fictitious website content from the footer is also made up. The above link will also take you to the creator of the website. 
+- The text for content ("Learn more") was researched from the [South African Government - Essential services - Coronoavirus Covid-19](https://www.gov.za/Coronavirus/essential-services), [Ontario](https://www.ontario.ca/page/list-essential-workplaces) and [KQED](https://www.kqed.org/news/11809643/the-many-challenges-of-being-an-essential-service-worker-in-a-pandemic). 
+- As this is a fictitious website content from "When will essential workers be receiving the donations?", is made up by me.
+- As this is a fictitious website content from the landing page (Quotes) is also made up.
+- The slogan of the company was made up on the spot. There was research done and no company appeared when the slogan was googled. 
+- The Form was persoanlly designed by myself.
+- The Legal statement made in the footer was made up as well and has not been proccessed by legal company. 
+- The content in the footer was phrased by myself
 
 ### Media
-- The photos used in this site were obtained from ...
-    - [The hero Image](https://i.pinimg.com/originals/c6/c3/6a/c6c36a5600cdfd0089804215b5c95f04.jpg)
+- The photos used in the landing page were obtained from [Unsplash](https://unsplash.com/)
+    - [School Girls](https://images.unsplash.com/photo-1574465636377-7781c5117a0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80)
+    - [Farmer](https://images.unsplash.com/photo-1504224357642-c87eacea1da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80)
+    - [Garbage Man](https://images.unsplash.com/photo-1564838344856-ad3ed7d0e964?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80)
+    - [Care taker](https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1057&q=80)
+
+- Two photos on the landing page came from a Google Image search for "retail worker" and "Waiters"
+    - [Retail worker](https://media.istockphoto.com/photos/businessman-checking-inventory-in-a-digital-tablet-at-a-supermarket-picture-id999084240?k=6&m=999084240&s=612x612&w=0&h=qpXTsB7r22GgXwuIFZkQdEqPIEu2rDL1L3w6qWPpVNE=)
+    - [Waiters](https://i0.wp.com/www.wantcv.com/wp-content/uploads/2019/07/Waiter-resume-writing.jpg?fit=1024%2C559&ssl=1&resize=1200%2C900)
+
+- The Logo was custom designed on [Logomakr](https://logomakr.com/) and then a screenshot was taken and cropped. 
+
+- The background image in the "Donate" section was from a Google Image search for "man dying of covid"
+    - [Background Image](https://www.google.com/search?q=man+dying+of+covid&sxsrf=ALeKk034w2t-0i7vJAZf9Vb8XReMjg0egQ:1590670374942&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjMqpz1zNbpAhUNi1wKHVsNCpQQ_AUoAXoECAsQAw&biw=1536&bih=760#imgrc=bL4gztUlBHecIM)
+    - [Here is the image address I Used](https://www.washingtonpost.com/resizer/gksHoZzAbWAG0s6iG39TisVzO6o=/arc-anglerfish-washpost-prod-washpost/public/A6BFFMCKMAI6VELE2MKUVWFFZU.jpg)
 
 ### Acknowledgements
 
