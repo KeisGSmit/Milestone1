@@ -21,15 +21,22 @@ lives again, as fast as possible.
  
 In this section I want to provide a deep insight into my UX process.
  I have explored [the strategy plane, the scope plane and the structure plane](wireframes/theuxdesign.pdf) in as much depth as I possibly could.
-The link should open a pdf file. This should be opened and read. 
+The link should open a pdf file. This should be opened and read, before continuing with this document. 
 
 The colour schemes/pallet used in this website is shades of blue:
 - The main landing page is #3611ed. 
-- the callout backgrounds (Slogan and quotes) have a black background (rgba(0,0,0,0.25)) that is slightly transparent which gives a darker blue background.
+- The colours of the links in the navigation bar was supllied by bootstrap
+- The callout backgrounds (Slogan and quotes) have a black background (rgba(0,0,0,0.25)) that is slightly transparent which gives a darker blue background.
 - The font on the landing page is #ffffff
-- the font colour for the learn more section is #000000
-- the secondary navigation bars #3611ed
-
+- The font colour for the learn more section is #000000
+- The background of the learn more section is purely negative space: in other words #ffffff
+- The secondary navigation bars are coloured #3611ed
+- The colours of the buttons were supllied by bootstrap
+- The form has a a black background (rgba(0,0,0,0.25))
+- The submit button colour was also provided by bootstrap
+- The footer background is #1c0686
+- The footer font is rgb(255, 255, 255)
+- The footer links have no been changed so that they stand out as negative space to draw attention.
 
 I mentioned in the pdf that I will provide a list of User Stories. 
 We will assume all Users will start at the landing page. The User can then navigate through the site as they wish to achieve other goals of other users. 
@@ -84,48 +91,37 @@ In this section, I will mention all of the languages, frameworks, libraries, and
  Some of these are sites where code was taken from or media was taken from. 
  Due to my understanding of the term "libraries" I have included all the sites I have used to create this website.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+### Lanuages 
+
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
-    - This was the programming language I used to construct the skeleton of the website and provide content.
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
-    - This is the Programming language I Used to style my content. 
-- [Java Script](https://en.wikipedia.org/wiki/JavaScript)
-    - I used this programming language to implement my form validation and change content on the site alongside Bootstrap.
-- [Bootstrap](https://getbootstrap.com/)
-    - Bootstrap provided me with external CSS code and scripts to help me style my website and make it mobile responsive.
-- [Font Awesome icons](https://fontawesome.com/icons?d=gallery)
-    - Icons for the content in the footer was taken from Font Awesome. 
-- [Google fonts](https://fonts.google.com/)
-    - Google Fonts provided the fonts for the website
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Tools 
+
 - [Palletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
-    - This website was used to help choose the colour pallet for the website to make it look proffessional. 
 - [Logomakr](https://logomakr.com/)
-    - Logomakr was used to create the logo of the company in the top navigation bar. 
 - [Autoprefixer](https://autoprefixer.github.io/)
-    - Autoprefixer was used to make my CSS code run on as my browsers as possible. 
 - [Unsplash](https://unsplash.com/)
-    - This website provided me with media I used for my landing page 
 - [Markup Validation service](https://validator.w3.org/) 
-    - I used the W3C Validation service to validate my HTML and CSS code before I did my final commit. 
 - [Contrast ratio](https://contrast-ratio.com/) 
-    - I used Contrast ratio to find a font colour that will suit my colour pallet as much as possible. 
 - [HTMLCheatSheets - css](https://htmlcheatsheet.com/css/)
-    - I used this website to create a CSS gradient background for divisions in my html between sections of the website for design purposes.  
 - [GitHub](https://github.com/)
-    - GitHub is the site where the current repository is being hosted on
 - [Git](https://git-scm.com/)
-    - Git was used to "deploy" changes to my code to GitHub and maintain version control. 
 - [Gitpod](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki?hl=en)
-    - Gitpod was the online IDE extension that I used to write my code.
 - [VSC](https://code.visualstudio.com/download) 
-    - Visual Studio Code was used with Gitpod at a stage in this project but due to the lack of experience it was not used much, due to technical issues. 
-    - VSC was first implemented to compensate for a bad internet connection, by acting as an offline IDE. 
 - [Microsoft Office](https://www.office.com/)
-    - Microsoft Word was used to spell check content of the repository and create pdf files. 
-    - Microsoft Excel was used to create the table in [the strategy plane, the scope plane and the structure plane](wireframes/theuxdesign.pdf) pdf.
 - [favicon](https://www.favicon.cc/) and a [tutorial](https://tutorialehtml.com/en/what-is-favicon-ico-usage/)  
-    - Favicon was used to create the logo in the tab of the website.
+
+### Frameworks
+
+- [Bootstrap](https://getbootstrap.com/)
+- [Font Awesome icons](https://fontawesome.com/icons?d=gallery)
+- [Google fonts](https://fonts.google.com/)
+
+### libraries
+- [JQuery](https://jquery.com)
+
 
 ## Testing
 
@@ -182,18 +178,35 @@ During testing it was decided that the attribute `target="_blank"` needed to be 
 
 This section describes the process I went through to deploy the project to a hosting platform (in this case: GitHub Pages).
 
-In my repository on GitHub, I went to settings, scrolled down to Github Pages, selected "master branch" on my "Source" drop down list. 
-Then a link was provided to me. The link took me to my deployed web page. All seperate branches were merged into the master branch to create the final product. 
+### Deploying a Live link
+
+All seperate branches were merged into the master branch to create the final product. 
+To deploy my live project I followed these instructions: 
+
+1. In my repository on GitHub
+    1. Go to settings
+    2. Scroll down to Github Pages
+    3. select "master branch" on my "Source" drop down list. 
+
+Then a link was provided to me. The link took me to my deployed web page.  
 
 The main difference between the deployed version and the development version (Using developer tools built into google chrome) was;
 - The development version had an issue where on mobile devices the user was able to slightly scroll horizontally, This was not the case in the deployed version.
     - This was tested in the early phases by sharing the live link to a mobile device and seeing that being able to scroll horizontally was not possible
 
-The device used by the creator of this project has windows 10 OS. 
-If the repository was cloned or downloaded to a local device (running windows), the website can be launched by double clicking the index.html file. 
-Right clicking on the file and hovering over, "Open with", will display apps that can display the code. selecting one will display the code in index.html locally. 
+### Deploying the project locally 
+The device used by the creator of this project has windows 10 OS. Thus these instructions will be designed for windows
 
+This is how to view the project locally (clone): 
+1. Download the repository to a local device by clicking the button clone/download button on GitHub
+2. Follow the pop up screens to save the repository in a file you choose.
+3. The website can be launched by double clicking the index.html file. 
 
+To inspect and edit (develop) the files locally: 
+1. Right clicking on the file 
+2. hover over, "Open with"
+3. Chose a app that can display the code (VSC/Notepad etc). 
+4. The code will be displayed locally. 
 
 ## Credits
 
@@ -227,4 +240,4 @@ Right clicking on the file and hovering over, "Open with", will display apps tha
 
 - Scott (Tutor) from the Code Institute helped with errors in the navigation bar burger Icon.  
 - Tim (Tutor) from the Code Institute helped with understanding and executing media queries.
-- Dick Vlaanderen (mentor) from the Code Institute helpped with wrting the Java Script code for the form validation. 
+- [Dick Vlaanderen](https://github.com/dickvla) (mentor) from the Code Institute helpped with wrting the Java Script code for the form validation. 
