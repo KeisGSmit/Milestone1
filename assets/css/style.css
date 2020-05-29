@@ -1,13 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
+/* this is the link to the google fonts that I imported */
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-/* this is the link to the google fonts that I imported */
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"); /* Start- this content was taken from https://fonts.google.com/specimen/Source+Sans+Pro?sidebar.open&selection.family=Oswald:wght@300;400;500;600;700|Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&query=sourc*/
+
 /**styles**/
 
+body{
+    font-size: 16px;
+}
+        /* Oswald font-family is from google fonts */
 h1,
 h2,
 h3,
@@ -16,52 +22,48 @@ h5,
 h6 {
   font-family: "Oswald", sans-serif;
 }
-
+        /* Source Sans Pro font-family is from google fonts */
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
+
+        /* background property value was taken from https://htmlcheatsheet.com/css/ */
 #trans1 {
-  /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
   background: #ffffff;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#3611ed));
   background: -o-linear-gradient(top, #ffffff 0%, #3611ed 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #3611ed 100%);
-  /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
-
   margin: 0;
   border: 0;
   padding: 0;
 }
+         /* background property value was taken from https://htmlcheatsheet.com/css/ */
 #trans2 {
-  /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
   background: #3611ed;
   background: -webkit-gradient(linear, left top, left bottom, from(#3611ed), to(#ffffff));
   background: -o-linear-gradient(top, #3611ed 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #3611ed 0%, #ffffff 100%);
-  /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
 }
-
+         /* background property value was taken from https://htmlcheatsheet.com/css/ */
 #trans3 {
-  /* Start- this content was taken from https://htmlcheatsheet.com/css/ */
   background: #ffffff;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#2407b4));
   background: -o-linear-gradient(top, #ffffff 0%, #2407b4 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #2407b4 100%);
-  /* End -this content was taken from https://htmlcheatsheet.com/css/ */
   min-height: 15px;
 }
 
 /**header**/
 
+        /* Oswald font-family is from google fonts */
 nav,
 nav > a {
-    /* Oswald family is from google fonts */
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  font-size: 5vh;
+  font-size: 5rem;
   display: inline;
   position: relative;
   overflow: hidden;
@@ -77,11 +79,11 @@ nav img {
 nav ul {
   text-align: center;
   vertical-align: center;
-  font-size: 3vh;
+  font-size: 2rem;
 }
 
 /**home**/
-.home {
+.landingpage {
   background-color: #3611ed;
   position: relative;
   display: -ms-grid;
@@ -129,6 +131,10 @@ nav ul {
     margin-bottom: 10px;
     bottom:80%;
 }
+.hiddenrows{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /**learnmore**/
 .learnmore {
   height: auto;
@@ -158,9 +164,10 @@ nav ul {
 }
 
 /**donate**/
+
+        /* the background image here is mentioned in the credits section of the readme file */
 .donate {
   height: auto;
-  /* the background image here is mentioned in the credits section of the readme file */
   background-image: url("https://www.washingtonpost.com/resizer/gksHoZzAbWAG0s6iG39TisVzO6o=/arc-anglerfish-washpost-prod-washpost/public/A6BFFMCKMAI6VELE2MKUVWFFZU.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,12 +255,12 @@ footer h3 {
   margin-right: 5%;
 }
 .textbox1 p{
-  font-size: 2vw;
+  font-size: 2rem;
   text-decoration: none;
   color: #000000;
 }
 .textbox1 h3 {
-  font-size: 3vw;
+  font-size: 3rem;
   text-decoration: none;
   color: #000000;
 }
@@ -263,79 +270,79 @@ footer h3 {
 @media (min-width: 320px) {
   nav img {
     height: 11vh;
-  }
+    }
   .textbox1 p {
-    font-size: 5vw;
+    font-size: 1rem;
     text-decoration: none;
-  }
+    }
   .textbox1 h3 {
-    font-size: 7vw;
+    font-size: 2rem;
     text-decoration: none;
-  }
+    }
 }
 @media (min-width: 370px) {
   nav img {
     font-size: 12vh;
-  }
+    }
   button [class="navbar-toggler"] {
     position: relative;
     display: inline;
-  }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .textbox1 h2,
   .textbox1 h3 {
-    font-size: 4vw;
-  }
+    font-size: 2.5rem;
+    }
 
   nav a[class="nav-link"] {
-    font-size: 3vw;
-  }
+    font-size: 2rem;
+    }
 
   .textbox1 p {
-    font-size: 3vw;
+    font-size: 1.5rem;
     text-decoration: none;
-  }
+    }
   .callout p{
-      font-size: 1.5vh;
-  }
+      font-size: 1rem;
+    }
 
 .textbox1 {
     margin-left: 5%;
     margin-right: 5%;
-  }
+    }
 }
 @media (min-width: 1200px) {
 .textbox1 {
     margin-left: 5%;
     margin-right: 5%;
-}
+    }
 
   .textbox1 h2,
   .textbox1 h3 {
-    font-size: 2.5vw;
-  }
+    font-size: 2.5rem;
+    }
 
   nav a[class="nav-link"] {
     font-size: 35px;
-  }
+    }
   nav a {
-    font-size: 3vw;
-  }
+    font-size: 3rem;
+    }
   nav img {
     height: 135px;
     top: 9px;
-  }
+    }
 
   .textbox1 p {
-    font-size: 2vw;
+    font-size: 1.5rem;
     text-decoration: none;
-  }
+    }
   .callout p{
-      font-size: 1.5vw;
-  }
+      font-size: 1.5rem;
+    }
   .callout h1{
-      font-size: 4vw;
-  }
+      font-size: 4rem;
+    }
 } 

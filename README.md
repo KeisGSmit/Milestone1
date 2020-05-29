@@ -20,8 +20,16 @@ lives again, as fast as possible.
 ## UX
  
 In this section I want to provide a deep insight into my UX process.
- I have explored [the strategy plane, the scope plane and the structure plane](readme_files/theuxdesign.pdf) in as much depth as I possibly could.
-The link should open a pdf file. 
+ I have explored [the strategy plane, the scope plane and the structure plane](wireframes/theuxdesign.pdf) in as much depth as I possibly could.
+The link should open a pdf file. This should be opened and read. 
+
+The colour schemes/pallet used in this website is shades of blue:
+- The main landing page is #3611ed. 
+- the callout backgrounds (Slogan and quotes) have a black background (rgba(0,0,0,0.25)) that is slightly transparent which gives a darker blue background.
+- The font on the landing page is #ffffff
+- the font colour for the learn more section is #000000
+- the secondary navigation bars #3611ed
+
 
 I mentioned in the pdf that I will provide a list of User Stories. 
 We will assume all Users will start at the landing page. The User can then navigate through the site as they wish to achieve other goals of other users. 
@@ -50,7 +58,7 @@ Sites that provide the user with the ability to donate to an organisation are li
 The user will need to reach the footer in any way they wish. Under the "Legal" section, it provides more information to the user. 
 The user can then decide what to do next. 
 
-I have prepared [wireframes/mockups](readme_files/TheFinal.pdf) created in Balsamiq mockups 3. The desktop and mobile first approaches have been included as part of the design process. 
+I have prepared [wireframes/mockups](wireframes/TheFinal.pdf) created in Balsamiq mockups 3. The desktop and mobile first approaches have been included as part of the design process. 
 
 
 ## Features
@@ -78,9 +86,9 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
     - This was the programming language I used to construct the skeleton of the website and provide content.
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
     - This is the Programming language I Used to style my content. 
 - [Java Script](https://en.wikipedia.org/wiki/JavaScript)
     - I used this programming language to implement my form validation and change content on the site alongside Bootstrap.
@@ -115,7 +123,7 @@ In this section, I will mention all of the languages, frameworks, libraries, and
     - VSC was first implemented to compensate for a bad internet connection, by acting as an offline IDE. 
 - [Microsoft Office](https://www.office.com/)
     - Microsoft Word was used to spell check content of the repository and create pdf files. 
-    - Microsoft Excel was used to create the table in [the strategy plane, the scope plane and the structure plane](readme_files/theuxdesign.pdf) pdf.
+    - Microsoft Excel was used to create the table in [the strategy plane, the scope plane and the structure plane](wireframes/theuxdesign.pdf) pdf.
 - [favicon](https://www.favicon.cc/) and a [tutorial](https://tutorialehtml.com/en/what-is-favicon-ico-usage/)  
     - Favicon was used to create the logo in the tab of the website.
 
@@ -165,7 +173,7 @@ The secondary navigation bar in the "Donate" section works as expected.
 The external links in the footer works as expected. 
 
 The project works on different browsers and screen sizes in the same manner. The browsers tested were: Microsoft edge, Google Chrome and Mozilla firefox. 
-The project displays on mobile devices in the same manner as in the [wireframes/mockups](readme_files/TheFinal.pdf). 
+The project displays on mobile devices in the same manner as in the [wireframes/mockups](wireframes/TheFinal.pdf). 
 
 During testing it was decided that the attribute `target="_blank"` needed to be applied to the external links, this has been done. 
 
