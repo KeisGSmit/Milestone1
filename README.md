@@ -241,3 +241,4 @@ To inspect and edit (develop) the files locally:
 - Scott (Tutor) from the Code Institute helped with errors in the navigation bar burger Icon.  
 - Tim (Tutor) from the Code Institute helped with understanding and executing media queries.
 - [Dick Vlaanderen](https://github.com/dickvla) (mentor) from the Code Institute helpped with wrting the Java Script code for the form validation. 
+# JScodeTester
